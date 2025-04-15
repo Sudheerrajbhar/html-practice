@@ -1,0 +1,74 @@
+#button {
+  color: rgb(224, 44, 44);
+}
+input {
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+h2 {
+  color: rgb(230, 27, 27);
+  font-weight: bold;
+  text-shadow: 4px 4px 3px #77f;
+  font-size: x-large;
+}
+p.fancystyle{
+  color: rgb(109, 47, 224);
+  font-weight: bold;
+}
+label[for="fname"]{
+  color: rgb(109, 114, 34);
+}
+input#fname{
+ background-color: rgb(223, 191, 191);
+}
+label[for="lname"]{
+  color: rgb(161, 60, 161);
+}
+#lname{
+  background-color: rgb(218, 218, 250);
+}
+label[for="emailaddress"]{
+color: orangered;
+}
+input[id="emailaddress"]{
+  background-color: rgb(61, 44, 44);
+}
+label[for="password"]{
+  color: rgb(187, 144, 70);
+}
+#password{
+  background-color: aquamarine;
+}
+label[for="address"]{
+  color: rgb(140, 36, 236);
+}
+#address{
+  background-color: rgb(240, 140, 140);
+}
+label[for="html"]{
+  color: red;
+}
+label[for="css"]{
+  color: rgb(5, 87, 36);
+}
+label[for="javascript"]{
+  color: blueviolet;
+}
+legend{
+  color: rgb(10, 87, 3);
+  text-shadow: orange;
+  font-weight: bold;
+  text-shadow: 4px 4px 3px #77f;
+  font-size: x-large;
+}
+.border{
+  border-color: red;
+  border-width: 2px;
+  border-style:solid;
+  width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+}
+label[for="car"]{
+  color: maroon;
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <h2>Single-line text input field:</h2>
+    <p class="fancystyle">
+      A paragraph is a distinct section of writing, typically consisting of
+      several sentences, that focuses on a single idea or topic, helping to
+      organize and structure written work.
+    </p>
+
+    <form>
+      <label for="fname">First name:</label><br />
+      <input type="text" id="fname" placeholder="Name" name="fname" required/><br />
+      <label for="lname">Last name:</label><br />
+      <input type="text" id="lname" placeholder="Surname" name="lname" required/><br />
+      <label for="emailaddress">Email Address:</label><br />
+      <input
+        type="email"
+        id="emailaddress"
+        placeholder="Email"
+        name="emailaddress"
+        required/><br />
+      <label for="password">password:</label><br />
+      <input
+        type="password"
+        id="password"
+        placeholder="password"
+        name="password"
+        required/><br />
+      <label for="address">Address:</label><br />
+      <input
+        type="text"
+        id="address"
+        placeholder="Parmanent Address"
+        name="address"
+        required/><br />
+      <input type="button" id="button" name="submit" value="submit" required/>
+    </form>
+    <h2>Choose your favorite web language :</h2>
+    <fieldset>
+      <legend> <b>&lt;input type="radio"&gt;</b></legend>
+      <input type="radio" id="Html" name="fav" value="html" required/>
+      <label for="html">Html</label><br />
+      <input type="radio" id="css" name="fav" value="css" required>
+      <label for="css">Css</label><br />
+      <input type="radio" id="javascript" name="fav" value="javascript" required/>
+      <label for="javascript">Javascript</label>
+    </fieldset>
+
+    <h2>
+      Checkboxes let a user select ZERO or MORE options of a limited number of
+      choices.
+    </h2>
+    <form>
+      <input type="checkbox" id="car" name="car" value="car" required/>
+      <label for="car">I have a Car</label><br />
+      <input type="checkbox" id="bike" name="bike" value="bike" required/>
+      <label for="bike">I have a Bike</label><br />
+      <input type="checkbox" id="boat" name="boat" value="boat" required/>
+      <label for="boat">I have a Boat</label><br />
+    </form>
+
+    <h2>Input Type Color :</h2>
+    <form>
+      <label for="color">Select your favorite colour :</label>
+      <input type="color" id="color" name="color" value="#00ff00" required/><br />
+      <label for="color">Select your another favorite color :
+      </label>
+      <input type="color" id="color" name="color" value="0000gg"required/>
+      <br /><br />
+      <input
+        type="button"
+        onclick="alert('Sudher');"
+        value="click me"
+        required/><br /><br />
+      <label for="birthday">Birthday :</label>
+      <input type="date" id="birthday" name="birthday" required/>
+      <input type="submit" value="submit" />
+    </form>
+    <div class="border">
+    <h2>Date Field Restrictions :</h2>
+    <p>Use the min and max attributes to add restrictions to dates:</p>
+    <form>
+      <label for="datemin">Enter a date after 2000-01-01:</label>
+      <input
+        type="date"
+        id="datemin"
+        name="datemin"
+        min="2000-01-01"
+        required/><br /><br />
+      <label for="datemax">Enter a date before 1980-01-01:</label>
+      <input type="date" id="datemax" name="datemax" max="1980-01-01" required/>
+    </div>
+    </form>
+    <h2>Local Date Field :</h2>
+    <p>The <b>input type="datetime-local"</b>pecifies a date and time input field, with no time zone.</p>
+    <form>
+      <label for="abcd">Birthday (date and time):</label>
+      <input type="datetime-local" id="abcd" name="abcd" required><br />
+    </form>
+    <p><strong>Note :</strong>type="datetime-local" is not supported in Internet Explorer 11.</p>
+    <form>
+    <h2>&lt;input type="file"&gt;</h2>
+    <label for="avatar">Choose your profile picture</label><br />
+    <input type="file" id="avatar" name="avatar" accept="image/jpeg, image/png"required/>
+  </form>
+    <h2>&lt;input type="image"&gt;</h2>
+    <div>
+      <label for="userId">User id</label>
+      <input type="text" id="userId" name="userId" value="sidhuraj9342@gmail.com" required/>
+    </div>
+      <input type="image"
+       id="image" 
+       style="width: 80px;" 
+       alt="Login Brain Buster"
+       src="https://raw.githubusercontent.com/mdn/learning-area/master/html/forms/image-type-example/login.png" required/>
+       <h2>&lt;input type="month"&gt;</h2>
+       <form>
+        <label for="start">Start Month :</label><br />
+        <input type="month" id="start" name="start" min="2000-01" value="2000-01" required/>
+       </form>
+       <h2>&lt;input type="reset"&gt;</h2>
+       <form>
+       <div class="control">
+       <label for="id">User Id</label>
+       <input type="text" id="id" name="id" required/><br />
+       <input type="reset" value="Reset" required/><br />
+       <input type="submit" value="submit">
+       </form>
+       </div>
+       <h2>&lt;input type="search"&gt;</h2>
+       <form>
+        <label for="site search">Search Your Site :</label><br />
+        <input type="search" id="site search" name="site search" required/>
+        <button>search</button>
+       </form>
+       <h2>&lt;input type="week"&gt;</h2>
+       <form class="week">
+       <label for="week">Choose a week in May or June:</label><br/>
+       <input type="week" id="week" name="week"  min="2018-W18"
+       max="2018-W26" required/>
+       </form>
+       <form>
+        
+       </form>
+  </body>
+</html>
