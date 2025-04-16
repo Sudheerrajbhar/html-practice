@@ -72,3 +72,22 @@ legend{
 label[for="car"]{
   color: maroon;
 }
+label[for="bike"]{
+  color: hotpink;
+}
+.checkbox{
+  color: blue;
+}
+#color{
+  color: rgb(224, 74, 14);
+}
+label[for="color1"]{
+  color: seagreen;
+}
+label[for="color2"]{
+  color: rgb(214, 194, 16);
+}
+input[type="button"]{
+  color: rgb(245, 241, 214);
+  background-color: red;
+}
